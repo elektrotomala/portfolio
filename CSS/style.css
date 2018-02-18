@@ -1,0 +1,39 @@
+#liczby {
+    width: 200px;
+    height: 100px;
+    background-color: chartreuse;
+    border-color: 10px dashed #4eadd4;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    color: beige;
+}
+
+/*
+
+@keyframes animki {
+   0% {
+       transform: translate3d(45deg,56deg,77deg);
+       transform: rotateX(70deg);
+       transform: rotateY(70deg);
+       transform: translateX(-600px);
+    }
+    
+    50%{
+        color: aqua;
+        transform: scale(2);
+            }
+    100%{
+        transform: matrix3d(3);        
+        color: crimson;
+           transform: rotateX(50deg);
+       transform: rotateY(50deg);
+    }
+}
+
+div.w3-container h3:hover {
+animation-name: animki;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+*/

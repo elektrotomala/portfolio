@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Tomasz Pniewski</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="CSS/w3.css">
+<link rel="stylesheet" href="CSS/css.css">
+<link rel="stylesheet" href="CSS/style.css">
+
+<link rel="Shortcut icon" href="obrazy/tpniewski.ico"/>
+
+
+    
+</head>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Tomasz<br>Pniewski</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#zainteresowania_zaw" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Zainteresowania zawodowe</a> 
+    <a href="#doswiadczenie" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Doświadczenie</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Poza pracą</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Kontakt</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Tomasz Pniewski</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="zainteresowania_zaw">
+    <h1 class="w3-jumbo"><b>Kilka słów o mnie</b></h1>
+    	
+    
+    <h1 class="w3-xxxlarge w3-text-red"><b>Zainteresowania zawodowe</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    
+    <p>
+    Od lat hobbystycznie zajmuję się systemami Linux. Rok temu na poważniej zainteresowałem się programowaniem. W międzyczasie w Akademii 108 ukończyłem kurs przygotowujący do pracy jako Front End Developer i od tej pory skupiam się na doskonaleniu znajomości przede wszystkim języka JavaScript. Nie da się tworzyć dobrych programów i stron internetowych bez znajomości różnych frameworków itp. Dlatego wykorzystuję m.in. Bootstrapa, W3.CSS czy jQuery. Cały czas poznaję nowe sposoby kodowania. Wiem, że dobry programista musi cały czas się doskonalić.</p>
+	<p>Oprócz tego mam wieloletnie doświadczenie w pracy z tekstem; za sobą analizę ponad miliona informacji. Dzięki dużemu zakresowi wiedzy ogólnej sprawnie kojarzę fakty z różnych dziedzin i weryfikuję treści. Łatwo nawiązuję kontakty i podtrzymuję relacje z ludźmi, staram się pierwszy wyciągać dłoń.
+    </p>
+    
+  </div>
+  
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="w3-container" id="doswiadczenie" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Doświadczenie zawodowe</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>W swojej pracy do tej pory łączyłem znajomość technik komputerowych z wiedzą ogólną, w tym dziedzin humanistycznych, jak psychologia czy pedagogika dorosłych.</p>
+    <p>Pracowałem jako dziennikarz, a także jako informatyk. Zajmowałem się m.in. pracami typu help-desk oraz zarządzaniem autorskim CMS i modyfikowaniem jego kodu. CMS WordPress również nie jest mi obcy. Jak już wspomniałem, moim ulubionym systemem jest Linux.
+    </p>
+  </div>
+  
+
+   <!-- Packages / Pricing Tables -->
+  <div class="w3-container" id="packages" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Poza pracą</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>W czasie wolnym lubię podróżować. Udało mi się do tej pory zwiedzić kilka interesujących krajów. Niektóre z nich właśnie stają się wśród Polaków popularnymi kierunkami podróży. Ale lubię też te mniejsze wyprawy, jak do lasów i na bagna w warszawskim Wawrze.</p>
+  </div>
+
+
+      <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="obrazy/obraz_7.jpg" style="width:100%" onclick="onClick(this)" alt="Mijscowość Ksamil (Xamil) w Albanii. Można znaleźć tam coraz więcej polskich turystów, a także tanio i smacznie zjeść.">
+      <img src="obrazy/obraz_10.jpg" style="width:100%" onclick="onClick(this)" alt="Ja na polu herbaty, którą uprawia się na stokach Himalajów, niedaleko miasta Darjeeling w Indiach.">
+      
+    </div>
+
+    <div class="w3-half">
+      <img src="obrazy/obraz_5.jpg" style="width:100%" onclick="onClick(this)" alt="Syri i Kaltë (Niebieskie Oko) w Albanii to cud natury. Głęboka na co najmniej 50 metrów studnia charakteryzuje się krystalicznie czystą wodą. Dno nie zostało do dziś zbadane.">
+
+      <img src="obrazy/obraz_8.jpg" style="width:100%" onclick="onClick(this)" alt="Amatorsko interesuję się sztuką. Tutaj w łódzkiej galerii Atlas Sztuki na wystawie mojego ulubionego artysty Laszlo Fehera.">
+      
+    </div>
+  </div>
+  
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Jeśli chciałbyś mi coś przekazać, a zwłaszcza masz informację o ciekawej ofercie pracy, proszę wyślij mi wiadomość.</p>
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" name="Name" required="" type="text">
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" name="Email" required="" type="text">
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" name="Message" required="" type="text">
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+    </form>  
+  </div>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="JS/main.js"></script>
+
+    
+
+<!-- <div id="liczby" class="w3-container w3-red" ><p>0</p></div> -->
+
+
+</body></html>
