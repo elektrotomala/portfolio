@@ -1,12 +1,9 @@
+var x = 0;
 
-$("nav").click(function(){
-    $("#liczby").toggle(1000);
-    
+$('html').mousemove(function () {
+    $('#paragrafKropek').text('Przebyłeś na tej stronie ' + x + ' kropek.');
+    x++;
 });
-
-// $("#liczby").click(function(){
-//   $(this).css("background","yellow");
-// });
 
 
 
