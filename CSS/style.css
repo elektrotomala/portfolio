@@ -1,6 +1,6 @@
 #liczbaKropek {
     width: 200px;
-    height: 100px;
+    height: 150px;
     background-color: chartreuse;
     border-color: 10px dashed #4eadd4;
     position: fixed;
@@ -14,3 +14,5 @@
     vertical-align: middle;
     display: block;
 }
+
+
