@@ -1,7 +1,7 @@
 var x = 0;
 
 $('html').mousemove(function () {
-    $('#paragrafKropek').text('Przebyłeś na tej stronie ' + x + ' kropek lub wykonałeś tyle ślizgnięć. ');
+    $('#paragrafKropek').text('Przebyłeś(aś) na tej stronie ' + x + ' kropek lub wykonałeś tyle ślizgnięć.');
     x++;
 });
 
