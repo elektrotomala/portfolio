@@ -26,6 +26,7 @@
     <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Poza pracą</a> 
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Kontakt</a>
   </div>
+<!--  <div class="w3-container" id="divadloTestowe">TEST</div> -->
 </nav>
 
 <!-- Top menu on small screens -->
@@ -74,6 +75,15 @@
     <p>W swojej pracy do tej pory łączyłem znajomość technik komputerowych z wiedzą ogólną, w tym dziedzin humanistycznych, jak psychologia czy pedagogika dorosłych.</p>
     <p>Pracowałem jako dziennikarz, a także jako informatyk. Zajmowałem się m.in. pracami typu help-desk oraz zarządzaniem autorskim CMS i modyfikowaniem jego kodu. CMS WordPress również nie jest mi obcy. Jak już wspomniałem, moim ulubionym systemem jest Linux.
     </p>
+    
+    <p>
+    
+    Na warsztatach z Javascript zrobiłem grę "kółko i krzyżyk". Potem ją zmodyfikowałem, dodając element statystyki.
+    
+<a href="https://elektrotomala.github.io/warsawjs-workshop-15-tictactoe/">https://elektrotomala.github.io/warsawjs-workshop-15-tictactoe/</a>
+    
+    </p>>
+    
   </div>
   
 
@@ -108,7 +118,7 @@
     <p>Jeśli chciałbyś mi coś przekazać, a zwłaszcza masz informację o ciekawej ofercie pracy, proszę wyślij mi wiadomość.</p>
     
     <!-- <form action="/action_page.php" target="_blank"> -->
-    <form action="https://formspree.io/your@email.com"
+    <form action="https://formspree.io/tomaszpniewski@wp.pl"
       method="POST"  target="_blank">
      
      
