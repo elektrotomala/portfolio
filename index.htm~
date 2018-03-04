@@ -49,8 +49,14 @@
     <h1 class="w3-xxxlarge w3-text-red"><b>Zainteresowania zawodowe</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
     
-    <p>
-    Od lat hobbystycznie zajmuję się systemami Linux. Rok temu na poważniej zainteresowałem się programowaniem. W międzyczasie ukończyłem szkolenie przygotowujące do pracy jako Front End Developer i od tamtej pory skupiam się na doskonaleniu znajomości przede wszystkim języka JavaScript.
+    <p>Od lat hobbystycznie zajmuję się systemami Linux, a od ubiegłego roku doskonalę znajomość 
+m. in. języka JavaScript. 
+<p>Oprócz tego mam wieloletnie doświadczenie w pracy z tekstem; za sobą analizę ponad miliona informacji agencyjnych. Dzięki dużemu zakresowi wiedzy ogólnej sprawnie kojarzę fakty z różnych dziedzin i weryfikuję treści. Łatwo nawiązuję kontakty i podtrzymuję relacje z ludźmi.
+</p>
+<p>
+Interesują mnie zajęcia związane z zakresem pracy redaktora-wydawcy, web content managera, junior front-end developera lub pokrewne.
+
+</p>
     </p>
     <p>Nie da się tworzyć dobrych programów i stron internetowych bez znajomości różnych frameworków itp. Dlatego wykorzystuję m.in. Bootstrapa, W3.CSS czy jQuery. Cały czas poznaję nowe sposoby kodowania. Wiem, że dobry programista musi cały czas się doskonalić.</p>
     <p>Oprócz tego mam wieloletnie doświadczenie w pracy z tekstem; za sobą analizę ponad miliona informacji. Dzięki dużemu zakresowi wiedzy ogólnej sprawnie kojarzę fakty z różnych dziedzin i weryfikuję treści. Łatwo nawiązuję kontakty i podtrzymuję relacje z ludźmi, staram się pierwszy wyciągać dłoń.
@@ -82,7 +88,7 @@
     
 <a href="https://elektrotomala.github.io/warsawjs-workshop-15-tictactoe/">https://elektrotomala.github.io/warsawjs-workshop-15-tictactoe/</a>
     
-    </p>>
+    </p>
     
   </div>
   
